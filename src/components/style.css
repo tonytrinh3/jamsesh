@@ -1,0 +1,35 @@
+
+
+.DJScreenGrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:black;
+    padding: 10px;
+}
+
+.DJScreen {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.ViewerScreenGrid {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    background-color:black;
+    padding: 10px;
+    justify-content: center;
+}
+
+
+.ViewerScreen {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+  
+}
